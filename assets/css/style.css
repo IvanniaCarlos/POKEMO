@@ -1,0 +1,50 @@
+body {
+    text-align: center;
+    
+  }
+
+  .flex-container{
+    display: grid;
+  }
+  
+  #pokemon-container {
+    height: 360px;
+    margin-bottom: 20px;
+  }
+  
+  .card {
+    align-self: center;
+    justify-self: center;
+    align-items: stretch;
+    height: 100%;
+    width: 250px;
+    border: 5px solid rgb(8, 5, 34);
+    border-radius: 26px;
+    margin: 10px;
+  }
+  
+  .card-img {
+    width: 100%;
+    
+  }
+  
+  .card-title {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .button {
+    background-color: #0d0827; /* Color de fondo verde */
+    color: #fff; /* Color del texto blanco */
+    padding: 9px 15px; /* Ajusta el padding según sea necesario */
+    border: none;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 20px;
+  }
+ 
