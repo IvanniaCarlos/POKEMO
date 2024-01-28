@@ -1,15 +1,18 @@
 body {
     text-align: center;
-    
+    background-color: #f3ff4e; /* Puedes usar cualquier color en formato hexadecimal, RGB, o nombre de color */
+    border: 10px solid #120336; /* Borde de 5 píxeles sólido de color gris oscuro (#333) */
   }
 
   .flex-container{
     display: grid;
+    
   }
   
   #pokemon-container {
     height: 360px;
     margin-bottom: 20px;
+    
   }
   
   .card {
@@ -32,6 +35,8 @@ body {
     text-align: center;
     margin-left: auto;
     margin-right: auto;
+ 
+    
   }
 
   .button {
